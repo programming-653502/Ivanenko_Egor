@@ -17,7 +17,7 @@ int main()
 {
 	int n;
 	char str[500]="",str1[500]="";
-	cout<<Rus("Ââåäèòå ÷èñëî îò 1 äî 100: ");
+	cout<<Rus("Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ¾Ñ‚ 1 Ğ´Ğ¾ 100: ");
 	cin>>n;
 	if (n>0 && n<=100)
 	{
@@ -26,52 +26,52 @@ int main()
 	{
 		switch(n)
 		{
-			case 11: strcpy(str, Rus("Îäèííàäöàòü"));break;
-			case 12: strcpy(str,Rus("Äâåíàäöàòü"));break;
-			case 13: strcpy(str,Rus("Òğèíàäöàòü"));break;
-			case 14: strcpy(str,Rus("×åòûğíàäöàòü"));break;
-			case 15: strcpy(str,Rus("Ïÿòíàäöàòü"));break;
-			case 16: strcpy(str,Rus("Øåñòíàäöàòü"));break;
-			case 17: strcpy(str,Rus("Ñåìíàäöàòü"));break;
-			case 18: strcpy(str,Rus("Âîñåìíàäöàòü"));break;
-			case 19: strcpy(str,Rus("Äåâÿòíàäöàòü"));break;
+			case 11: strcpy(str, Rus("ĞĞ´Ğ¸Ğ½Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 12: strcpy(str,Rus("Ğ”Ğ²ĞµĞ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 13: strcpy(str,Rus("Ğ¢Ñ€Ğ¸Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 14: strcpy(str,Rus("Ğ§ĞµÑ‚Ñ‹Ñ€Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 15: strcpy(str,Rus("ĞŸÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 16: strcpy(str,Rus("Ğ¨ĞµÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 17: strcpy(str,Rus("Ğ¡ĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 18: strcpy(str,Rus("Ğ’Ğ¾ÑĞµĞ¼Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 19: strcpy(str,Rus("Ğ”ĞµĞ²ÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
 		}
 	}
 	else 
 	{
 		switch(n/10)
 		{
-			case 1: strcpy(str,Rus("Äåñÿòü"));break;
-			case 2: strcpy(str,Rus("Äâàäöàòü"));break;
-			case 3: strcpy(str,Rus("Òğèäöàòü"));break;
-			case 4: strcpy(str,Rus("Ñîğîê"));break;
-			case 5: strcpy(str,Rus("Ïÿòüäåñÿò"));break;
-			case 6: strcpy(str,Rus("Øåñòüäåñÿò"));break;
-			case 7: strcpy(str,Rus("Ñåìüäÿñÿò"));break;
-			case 8: strcpy(str,Rus("Âîñåìüäÿñÿò"));break;
-			case 9: strcpy(str,Rus("Äåâÿíîñòî"));break;
-			case 10: strcpy(str,Rus("Ñòî"));break;
+			case 1: strcpy(str,Rus("Ğ”ĞµÑÑÑ‚ÑŒ"));break;
+			case 2: strcpy(str,Rus("Ğ”Ğ²Ğ°Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 3: strcpy(str,Rus("Ğ¢Ñ€Ğ¸Ğ´Ñ†Ğ°Ñ‚ÑŒ"));break;
+			case 4: strcpy(str,Rus("Ğ¡Ğ¾Ñ€Ğ¾Ğº"));break;
+			case 5: strcpy(str,Rus("ĞŸÑÑ‚ÑŒĞ´ĞµÑÑÑ‚"));break;
+			case 6: strcpy(str,Rus("Ğ¨ĞµÑÑ‚ÑŒĞ´ĞµÑÑÑ‚"));break;
+			case 7: strcpy(str,Rus("Ğ¡ĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚"));break;
+			case 8: strcpy(str,Rus("Ğ’Ğ¾ÑĞµĞ¼ÑŒĞ´ĞµÑÑÑ‚"));break;
+			case 9: strcpy(str,Rus("Ğ”ĞµĞ²ÑĞ½Ğ¾ÑÑ‚Ğ¾"));break;
+			case 10: strcpy(str,Rus("Ğ¡Ñ‚Ğ¾"));break;
 		}
 	
 	switch(n%10)
 		{
-			case 1: strcpy(str1,Rus("îäèí"));break;
-			case 2: strcpy(str1,Rus("äâà"));break;
-			case 3: strcpy(str1,Rus("òğè"));break;
-			case 4: strcpy(str1,Rus("÷åòûğå"));break;
-			case 5: strcpy(str1,Rus("ïÿòü"));break;
-			case 6: strcpy(str1,Rus("øåñòü"));break;
-			case 7: strcpy(str1,Rus("ñåìü"));break;
-			case 8: strcpy(str1,Rus("âîñåìü"));break;
-			case 9: strcpy(str1,Rus("äåâÿòü"));break;
-			case 10: strcpy(str1,Rus("äåñÿòü"));break;
+			case 1: strcpy(str1,Rus("Ğ¾Ğ´Ğ¸Ğ½"));break;
+			case 2: strcpy(str1,Rus("Ğ´Ğ²Ğ°"));break;
+			case 3: strcpy(str1,Rus("Ñ‚Ñ€Ğ¸"));break;
+			case 4: strcpy(str1,Rus("Ñ‡ĞµÑ‚Ñ‹Ñ€Ğµ"));break;
+			case 5: strcpy(str1,Rus("Ğ¿ÑÑ‚ÑŒ"));break;
+			case 6: strcpy(str1,Rus("ÑˆĞµÑÑ‚ÑŒ"));break;
+			case 7: strcpy(str1,Rus("ÑĞµĞ¼ÑŒ"));break;
+			case 8: strcpy(str1,Rus("Ğ²Ğ¾ÑĞµĞ¼ÑŒ"));break;
+			case 9: strcpy(str1,Rus("Ğ´ĞµĞ²ÑÑ‚ÑŒ"));break;
+			case 10: strcpy(str1,Rus("Ğ´ĞµÑÑÑ‚ÑŒ"));break;
 		}
 		cout<<str<<" "<<str1<<endl;
 	 	getch();
 	 	return 0;
 	 }
 }
-else cout<<Rus("Âû ââåëè ÷èñëî íå èç çàäàííîãî ïğîìåæóòêà");
+else cout<<Rus("Ğ’Ñ‹ Ğ²Ğ²ĞµĞ»Ğ¸ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ½Ğµ Ğ¸Ğ· Ğ·Ğ°Ğ´Ğ°Ğ½Ğ½Ğ¾Ğ³Ğ¾ Ğ¿Ñ€Ğ¾Ğ¼ĞµĞ¶ÑƒÑ‚ĞºĞ°");
 }
 
 
