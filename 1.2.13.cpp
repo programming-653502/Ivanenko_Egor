@@ -2,7 +2,6 @@
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
-#include <clocale>
 using namespace std;
 
 char bufRus[500];
