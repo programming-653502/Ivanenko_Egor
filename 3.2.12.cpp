@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {	
 	setlocale(LC_ALL,"rus");
-	cout<<"Ëàòèíñèêé êâàäðàò ðàçìåðîì nxn: "<<endl;
+	cout<<"Ð›Ð°Ñ‚Ð¸Ð½ÑÐºÐ¸Ð¹ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚ Ñ€Ð°Ð·Ð¼ÐµÑ€Ð¾Ð¼ nxn: "<<endl;
     int **mas, n, i, j;
-    cout<<"Ââåäèòå n=";
+    cout<<"Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ n=";
     cin>>n;
     mas=new int*[n];
      for(i=0; i<n; i++)
