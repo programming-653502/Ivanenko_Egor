@@ -1,0 +1,9 @@
+﻿  Random.cpp
+c:\users\egor ivanenko\documents\visual studio 2015\projects\consoleapplication11\consoleapplication11\random.cpp(5): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Piece.cpp
+  main.cpp
+  Game.cpp
+  Drawer.cpp
+c:\users\egor ivanenko\documents\visual studio 2015\projects\consoleapplication11\consoleapplication11\drawer.cpp(56): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+sfml-graphics-d.lib(sfml-graphics-d-2.dll) : fatal error LNK1112: тип компьютера модуля "x64" противоречит типу целевого компьютера "X86"
